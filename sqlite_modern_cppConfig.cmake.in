@@ -1,0 +1,5 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/sqlite_modern_cppTargets.cmake")
+
+check_required_components(sqlite_modern_cpp)
